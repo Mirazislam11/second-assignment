@@ -38,7 +38,9 @@
         left: 10px;
         top: -450px;
     }
-    .movement-container{
+    .movement-container,
+    .team-member
+    {
         grid-template-columns: repeat(1, 1fr);
 
     }
