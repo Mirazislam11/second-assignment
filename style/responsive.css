@@ -1,0 +1,43 @@
+@media screen and (max-width:576px){
+    .nav-menu{
+        display: none;
+    }
+    .hamburge-menu{
+        display: block;
+    }
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-title{
+        font-size: 4rem;
+        margin-bottom: 1.75rem;
+    }
+    .primary-btn{
+        display: none;
+    }
+    .primary-btn-join{
+        display: block;
+        flex-direction: column;
+    }
+    .banner-img{
+        margin-top: 3rem;
+    }
+    .workout-videos{
+        max-width: 170px;
+        left: 200px;
+        top: -550px;
+    }
+    .video-tutorial{
+        left: 10px;
+        top: -450px;
+    }
+    .movement-container{
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    .movement-paragraph{
+        max-width: 250px;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+}
