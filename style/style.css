@@ -5,6 +5,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
     background-color: #101010;
 }
 /* shear style */
@@ -14,6 +16,11 @@
 .light-gray{
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
+    font-weight: 400;
+}
+.light-paragraph{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
     font-weight: 400;
 }
 .primary-title{
@@ -40,6 +47,15 @@
     border: none;
     display: none;
 }
+.btn-one{
+    color: rgb(255, 255, 255);
+    font-size: 1.125rem;
+    font-weight: 600;
+    border-radius: 2.62rem;
+    background: rgb(230, 83, 60);
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    border: none;
+}
 .secondary-btn{
     color: rgb(255, 255, 255);
     font-size: 1.125rem;
@@ -48,6 +64,7 @@
     border-radius: 2.62rem;
     padding: 1rem 2.5rem 1rem 2.5rem;
     margin-left: 1rem;
+    background-color: transparent;
 }
 /* navbar style */
 header{
@@ -106,9 +123,9 @@ header{
 .btn-container{
     margin-top: 1.75rem;
 }
-.banner-img >img{
+/* .banner-img >img{
     width: 100%;
-}
+} */
 .workout-videos{
     position: relative;
     bottom: 420px;
@@ -177,3 +194,113 @@ header{
     font-size: 14px;
     font-weight: 400;
 }
+.run-extra-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 6rem;
+    border-radius: 18px;
+    background: rgba(34, 34, 34, 0.767);
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.run-extra-container, .run-extra-title p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.run-extra-title{
+    max-width: 500px;
+    
+}
+.run-extra-image{
+    max-width: 500px;
+}
+.run-extra-image img{
+   width: 100%;
+   border-radius: 1.125rem;
+}
+/* calculator style */
+.calculator-title{
+    max-width: 700px;
+    margin: 50px auto;
+}
+.bmi-calculator{
+    background: rgb(34, 34, 34);
+}
+.bmi-wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+/* .bmi-chart{
+
+} */
+.bmi-chart-title{
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+}
+.bmi-chart table{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    margin-top: 50px;
+   
+}
+.bmi-chart table thead tr, .bmi-chart table tbody tr,
+.bmi-chart table thead tr th, .bmi-chart table tbody tr td
+{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    /* border-collapse: collapse; */
+    padding: 10px 15px;
+    text-align: left;
+    color: #fff;
+}
+.bmi-chart table tbody tr td{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+.bmi-chart-input{
+    max-width: 580px;
+}
+.bmi-chart-input p{
+    margin: 15px 0 30px 0;
+}
+.bmi-input-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+.bmi-input-wrapper input , .bmi-input-wrapper select
+
+{
+    color: rgba(255, 255, 255, 0.6);
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    outline: none;
+}
+/* option{
+    background-color: #101010;
+    color: #fff;
+} */
+#activity{
+    display: block;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 10px 15px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    margin-top: 12px;
+    margin-bottom: 30px;
+}
+/* .bmi-input-wrapper select{
+    color: rgba(255, 255, 255, 0.6);
+    padding: 10px 15px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+} */

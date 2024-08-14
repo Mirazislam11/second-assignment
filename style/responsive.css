@@ -1,11 +1,17 @@
 @media screen and (max-width:576px){
+    body{
+        padding-inline: 15px;
+    }
     .nav-menu{
         display: none;
     }
     .hamburge-menu{
         display: block;
     }
-    .banner-container{
+    .banner-container,
+    .run-extra-container,
+    .bmi-wrapper
+    {
         flex-direction: column;
     }
     .banner-title{
@@ -20,6 +26,7 @@
         flex-direction: column;
     }
     .banner-img{
+        margin: auto;
         margin-top: 3rem;
     }
     .workout-videos{
@@ -39,5 +46,14 @@
         max-width: 250px;
         margin: 0 auto;
         margin-bottom: 2rem;
+    }
+
+    /* -------------Extra Run Section----------- */
+    .run-extra-container, .run-extra-title button{
+        margin-bottom: 30px;
+    }
+    /* bmi section */
+    .bmi-chart-input{
+        margin-top: 3rem;
     }
 }
