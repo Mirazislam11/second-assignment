@@ -10,7 +10,8 @@
     }
     .banner-container,
     .run-extra-container,
-    .bmi-wrapper
+    .bmi-wrapper,
+    .activity-one
     {
         flex-direction: column;
     }
@@ -39,7 +40,8 @@
         top: -450px;
     }
     .movement-container,
-    .team-member
+    .team-member,
+    .footer-container
     {
         grid-template-columns: repeat(1, 1fr);
 
