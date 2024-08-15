@@ -270,12 +270,11 @@ header {
 }
 .activity-img{
     max-width: 400px;
-    border-radius: 20px;
+    padding: 20px;
 }
 .activity-img img{
     width: 100%;
-    padding: 20px;
-    
+    border-radius: 20px;
 }
 .cycling-title{
     max-width: 500px;

@@ -48,9 +48,11 @@
 
     }
     
-    .bmi-chart-input
+    .bmi-chart-input,
+    .bmi-chart,
+    .footer-section
     {
-        padding-right: 30px;
+        padding-inline: 20px 30px;
     }
     .movement-paragraph{
         max-width: 250px;
@@ -59,7 +61,10 @@
     }
 
     /* -------------Extra Run Section----------- */
-    .run-extra-container, .run-extra-title button{
+    .run-extra-container,
+     .run-extra-title button,
+     .cycling-title
+     {
         margin-bottom: 30px;
     }
     /* bmi section */
