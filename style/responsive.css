@@ -41,10 +41,16 @@
     }
     .movement-container,
     .team-member,
-    .footer-container
+    .footer-container,
+    .bmi-input-wrapper
     {
         grid-template-columns: repeat(1, 1fr);
 
+    }
+    
+    .bmi-chart-input
+    {
+        padding-right: 30px;
     }
     .movement-paragraph{
         max-width: 250px;
